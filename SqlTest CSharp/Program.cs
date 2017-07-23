@@ -17,7 +17,7 @@ namespace SqlTest_CSharp
             // will be available throughout this block.
             using (SqlConnection conn = new SqlConnection())
             {
-                // Create the connectionString
+                // Create the connectionString//
                 // Trusted_Connection is used to denote the connection uses Windows Authentication
                 conn.ConnectionString = "Server=[server_name];Database=[database_name];Trusted_Connection=true";
                 conn.Open();
